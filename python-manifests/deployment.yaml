@@ -23,7 +23,7 @@ spec:
       containers:
       - image: rociodelaney/python-helloworld:v1.1.0 
         imagePullPolicy: IfNotPresent
-        name: python-helloworld
+        name: python-helloworld 
         resources:
           requests:
             cpu: 50m
